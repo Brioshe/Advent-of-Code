@@ -5,8 +5,7 @@
 #include <numeric>
 #include <cmath>
 
-int 
-{
+int main() {
     std::ifstream inputFile("input.txt");
 
     if (!inputFile)
@@ -36,9 +35,9 @@ int
     for (size_t i = 0; i < leftList.size(); i++)
     {
         int comparator = leftList[i];
-        int count = std::count(rightList.begin(), rightList.end(), comparator);
+        int countNumber = std::count(rightList.begin(), rightList.end(), comparator);
 
-        similarityScore += comparator * count;
+        similarityScore += comparator * countNumber;
     }
 
     std::cout << "Similarity Score: " << similarityScore << std::endl;
