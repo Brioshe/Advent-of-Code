@@ -55,7 +55,16 @@
         "xutility": "cpp",
         "sstream": "cpp",
         "string": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "xhash": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
