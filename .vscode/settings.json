@@ -64,7 +64,10 @@
         "span": "cpp",
         "unordered_map": "cpp",
         "unordered_set": "cpp",
-        "xhash": "cpp"
+        "xhash": "cpp",
+        "day_6_1": "cpp",
+        "set": "cpp",
+        "xtree": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
