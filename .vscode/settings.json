@@ -67,7 +67,8 @@
         "xhash": "cpp",
         "day_6_1": "cpp",
         "set": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "functional": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

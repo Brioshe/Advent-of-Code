@@ -1,6 +1,3 @@
-// Changes to make:
-//     - Change update from checking entire board for guard position to knowing position and adjusting it
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -22,7 +19,7 @@ std::vector<char> guardFaces = {
         '>',
         'v',
         '<'
-    };
+};
 
 void defaultPosition(std::pair<int, int>& currentPosition, const std::vector<std::vector<char>>& grid) {
     int rowCount = grid.size();
